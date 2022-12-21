@@ -1,0 +1,19 @@
+.it {
+  position: relative;
+  font-weight: bold;
+}
+.it::before {
+  position: absolute;
+  content: "{";
+  left: -15px;
+  color: #f15525;
+  margin-left: 2px;
+}
+
+.it::after {
+  position: absolute;
+  content: "}";
+  right: -15px;
+  color: #f15525;
+  margin-left: 2px;
+}

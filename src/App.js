@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from '@mui/material';
+import Courses from './Components/Courses';
+import Header from './Components/Header';
+import Info from './Components/Info'
+import StadyCards from './Components/StadyCards';
+import Promo from './Components/Promo'
+import Modals from './Components/Modals';
+import Price from './Components/Price';
+import Footer from './Components/Footer';
+import Support from './Components/Support';
+// import MediaBlock from './Components/MediaBlock';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth='lg'>
+      <Header/>
+      <Info/>
+      <Courses/>
+      <StadyCards/>
+      {/* <MediaBlock/> */}
+      <Promo/>
+      <Modals/>
+      <Price/>
+      <Support/> 
+      <Footer/>
+    </Container>
   );
 }
 
