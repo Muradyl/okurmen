@@ -1,5 +1,6 @@
 .ver-line {
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .ver-line::before {
@@ -20,4 +21,8 @@
     width: 1px;
     background-color: #b7bbbc;
     left: 50px;
+}
+
+*{
+    scroll-behavior: smooth;
 }

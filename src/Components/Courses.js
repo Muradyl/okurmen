@@ -111,7 +111,7 @@ const Courses = () => {
                    </Box>
                    </>
                ):(
-                   <>
+                   <section id="courses">
                    <Typography variant='h4' sx={{
                        fontFamily: 'Gilroy',
                        textAlign: 'center',
@@ -195,7 +195,7 @@ const Courses = () => {
                    }}>Это необходимый минимум для<br/> современного backend-разработчика</Typography>
                        </Box> 
                    </Box>
-                   </>
+                   </section>
                )}              
        </React.Fragment>
     );

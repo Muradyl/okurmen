@@ -8,12 +8,14 @@ const Promo = () => {
     const theme = useTheme()
     const isMatch = useMediaQuery(theme.breakpoints.down('sm'))
     return (
-        <React.Fragment>
+
+        <React.Fragment >
           {isMatch?(
               <>
+
               </>
           ):(
-            <>
+            <section id="#Promo">
             <Box sx={{
              display: 'flex',
              mt: '91px',
@@ -121,7 +123,7 @@ const Promo = () => {
                     mt: '7px'
                 }}>Попробуйте, первые уроки<br/> бесплатны, но нужно пройти<br/> тестирование</Typography>
             </Box>
-            </>
+            </section>
           )}
         </React.Fragment>
     );

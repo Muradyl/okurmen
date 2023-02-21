@@ -77,7 +77,7 @@ const StadyCards = () => {
            </Box>
             </>
         ):(
-            <>
+            <section id="study">
             <Typography variant='h4' sx={{
                 fontFamily: 'Gilroy',
                 textAlign: 'center',
@@ -181,7 +181,7 @@ const StadyCards = () => {
           </Card>
         ))}
       </Box>
-            </>
+            </section>
         )} 
         </React.Fragment>
     );

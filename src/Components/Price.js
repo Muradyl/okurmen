@@ -13,7 +13,7 @@ const Price = () => {
                 <>
                 </>
             ):(
-                <>
+                <section id="prices">
                 <Typography variant='h4' sx={{
                     textAlign: 'center',
                     mt: '100px',
@@ -157,7 +157,7 @@ const Price = () => {
                         <Typography  sx={{fontFamily: 'Gilroy',mt: '17px',fontWeight: 700,fontSize: '24px'}}>12</Typography>
                     </Box>                  
                 </Box>
-                </>
+                </section>
             )}
         </React.Fragment>
     );
